@@ -45,3 +45,9 @@ create table salesperson (
     first_name text,
     last_name text
 );
+
+CREATE TABLE industry_memberships (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  company_id INTEGER,
+  industry_id INTEGER
+);
